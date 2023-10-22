@@ -1,65 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Online Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
+
 <body>
-    <h1>Objective Statement:</h1>
-        I am a dedicated fitness professional with a strong background in personal training, nutrition, and wellness, backed by a decade of experience.<br><br> My passion for web development complements my fitness expertise, driving me to create innovative online platforms and resources that empower individuals to achieve their health and fitness goals.<br><br> I am committed to leveraging my unique blend of skills to promote well-being and fitness through digital solutions that inspire and educate.</p>
 
-    <img src="" alt="">
-    <hr>
+    <!-- Heading Section -->
+    <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold text-body-emphasis">I'm Davie</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">A fitness professional & web developer.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Hire Me</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">My Work</button>
+            </div>
+        </div>
+        <div style="max-height: 30vh;">
+            <div class="container px-5">
+            </div>
+        </div>
+    </div>
 
-    <h1>Education:</h1>
-    <p></p>
-    <ol>
-        <li>Kirkland High School & Community College - Methil</li>
-        <li>Fife College (Software Development) - Kirkcaldy</li>
-    </ol>
+    <!-- About Me Section -->
+    <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+            <img src="./img/Me.jpg" alt="Picture of Davie" class="profile-img">
+            <h5 class="text-body-emphasis">I am a dedicated fitness professional with a strong background in personal training, nutrition, and wellness, backed by a decade of experience.<br><br> My passion for web development complements my fitness expertise, driving me to create innovative online platforms and resources that empower individuals to achieve their health and fitness goals. I am committed to leveraging my unique blend of skills to promote well-being and fitness through digital solutions that inspire and educate.<br><br> I ❤️ German Shepherds.</h5>
+        </div>
 
-    <hr>
+        <!-- My Skills Section -->
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom"></h2>
 
-    <h1>Work Experience:</h1>
-    <p></p>
-    <ol>
-        <li>Fitness Professional (Personal Trainer)</li>
-        <li>Web Developer</li>
-    </ol>
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                <div class="col d-flex flex-column align-items-start gap-2">
+                    <h2 class="fw-bold text-body-emphasis">My Skill Set</h2>
+                    <p class="text-body-secondary">What you can see here is a glimpse of the skills I have.
+                        Mixing my career as a personal trainer with web development allowing me to help build custom web
+                        sites for fitness professionals.</p>
+                    <a href="#" class="btn btn-primary btn-lg">Hire Me</a>
+                </div>
 
-    <hr>
+                <div class="col">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <img height="40" src="https://img.icons8.com/3d-fluency/94/dumbbell.png"
+                                    alt="dumbbell" />
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Personal Training</h4>
+                            <p class="text-body-secondary">I begun my fitness career at 29. Studying personal training
+                                to improve the lives of everyone. Using my skills and knowledge I have built customs
+                                programs for all.</p>
+                        </div>
 
-    <h1>Skills:</h1>
-    <p></p>
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
-        <li>MySQL</li>
-    </ol>
+                        <div class="col d-flex flex-column gap-2">
+                            <div
+                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <img height="40" src="https://img.icons8.com/stickers/100/source-code.png"
+                                    alt="coding symbol" />
+                            </div>
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Web Development</h4>
+                            <p class="text-body-secondary">I started learning to code when I was 25 years old because I
+                                wanted to learn more about web design. After a 15 year break I have gained experience in
+                                building custom web sites for fitness professionals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <hr>
+        <!-- Footer Section -->
+        <div class="px-4 py-5 my-5 text-center border-top">
+            <h1 class="display-5 fw-bold text-body-emphasis">Get In Touch</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">If you like fitness and computers as much as I do.</p>
+                <p class="lead mb-4">Created by: Davie Birrell</p>
+                <p>Contact information: <a href="mailto:">Email Me</a>.</p>
 
-    <h1>Awards:</h1>
-    <p></p>
-    <ol>
-        <li>Davie's List</li>
-    </ol>
-
-    <hr>
-
-    <h2>About Me</h2>
-    <p></p>
-
-    <a href="contact.html">Contact Me</a>
-
-    <footer>
-        <p>Created by: Davie Birrell</p>
-        <p>Contact information: <a href="mailto:">Email Me</a>.</p>
-        <span>&copy; 2023</span>
-    </footer>
-    
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Me</button>
+                </div>
+            </div>
+        </div>
 </body>
+
 </html>
